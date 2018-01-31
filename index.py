@@ -191,7 +191,7 @@ if  __name__ == '__main__':
 	# result = extraction_re('tt.graphml', 10)
 	# result.show()
 
-	# 命令行参数，第一个为处理的图文件(graphml)所在的文件夹，第二个为最终的图名字(寻找当前路径，因此需要放在当前目录)
+	# 程序主入口，需要传入两个命令行参数，第一个为处理的图文件(graphml)所在的文件夹，第二个为最终的图文件(graphml)名字(寻找当前路径，因此需要放在当前目录)
 	scale = Final_scale.Get_scale(sys.argv[2])
 	for parent, dirnames, filenames in os.walk(sys.argv[1]):
 		for file in filenames:
