@@ -7,8 +7,8 @@
 ![处理时序中的前图](result2.png)
 
 ## 运行方法
-```bash
-$ python index.py XX(新建保存的文件夹) Final.graphml(最后一个网络图包含坐标的graphml文件)
+```bash	
+$ python index.py XX(存放graphml的文件夹) Final.graphml(最后一个网络图包含坐标的graphml文件)
 ```
 ### 所需配置
 ```bash
